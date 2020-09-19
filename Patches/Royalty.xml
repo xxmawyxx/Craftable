@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<!--ROYALTY WEAPONS-->
+
+	<!--MONOSWORD-->
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "MeleeWeapon_MonoSword"]</xpath>
+				<value>
+					<costList>
+						<Plasteel>70</Plasteel>
+						<Uranium>30</Uranium>
+						<ComponentSpacer>5</ComponentSpacer>
+					</costList>
+					<recipeMaker>
+						<researchPrerequisites>
+							<li>Mawy_Royaltyweapons</li>
+						</researchPrerequisites>
+						<skillRequirements>
+							<Crafting>12</Crafting>
+						</skillRequirements>
+						<workSkill>Crafting</workSkill>
+						<recipeUsers>
+							<li>FabricationBench</li>
+						</recipeUsers>
+						<unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+					</recipeMaker>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "MeleeWeapon_MonoSword"]/statBases</xpath>
+				<value>
+					<WorkToMake>40000</WorkToMake>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<!--PLASMASWORD-->
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "MeleeWeapon_PlasmaSword"]</xpath>
+				<value>
+					<costList>
+						<Plasteel>50</Plasteel>
+						<Uranium>50</Uranium>
+						<ComponentSpacer>5</ComponentSpacer>
+					</costList>
+					<recipeMaker>
+						<researchPrerequisites>
+							<li>Mawy_Royaltyweapons</li>
+						</researchPrerequisites>
+						<skillRequirements>
+							<Crafting>12</Crafting>
+						</skillRequirements>
+						<workSkill>Crafting</workSkill>
+						<recipeUsers>
+							<li>FabricationBench</li>
+						</recipeUsers>
+						<unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+					</recipeMaker>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "MeleeWeapon_PlasmaSword"]/statBases</xpath>
+				<value>
+					<WorkToMake>40000</WorkToMake>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<!--ZEUSHAMMER-->
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "MeleeWeapon_Zeushammer"]</xpath>
+				<value>
+					<costList>
+						<Plasteel>100</Plasteel>
+						<Uranium>50</Uranium>
+						<ComponentSpacer>5</ComponentSpacer>
+					</costList>
+					<recipeMaker>
+						<researchPrerequisites>
+							<li>Mawy_Royaltyweapons</li>
+						</researchPrerequisites>
+						<skillRequirements>
+							<Crafting>12</Crafting>
+						</skillRequirements>
+						<workSkill>Crafting</workSkill>
+						<recipeUsers>
+							<li>FabricationBench</li>
+						</recipeUsers>
+						<unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+					</recipeMaker>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "MeleeWeapon_Zeushammer"]/statBases</xpath>
+				<value>
+					<WorkToMake>40000</WorkToMake>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<!--PERSONA WEAPONS-->
+
+	<!--PERSONA MONOSWORD-->
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "MeleeWeapon_MonoSwordBladelink"]</xpath>
+				<value>
+					<costList>
+						<Plasteel>70</Plasteel>
+						<Uranium>30</Uranium>
+						<ComponentSpacer>5</ComponentSpacer>
+						<Luciferium>5</Luciferium>
+					</costList>
+					<recipeMaker>
+						<researchPrerequisites>
+							<li>Mawy_RoyaltyPersonaweapons</li>
+						</researchPrerequisites>
+						<skillRequirements>
+							<Crafting>15</Crafting>
+						</skillRequirements>
+						<workSkill>Crafting</workSkill>
+						<recipeUsers>
+							<li>FabricationBench</li>
+						</recipeUsers>
+						<unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+					</recipeMaker>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "MeleeWeapon_MonoSwordBladelink"]/statBases</xpath>
+				<value>
+					<WorkToMake>40000</WorkToMake>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<!--PERSONA PLASMASWORD-->
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "MeleeWeapon_PlasmaSwordBladelink"]</xpath>
+				<value>
+					<costList>
+						<Plasteel>50</Plasteel>
+						<Uranium>50</Uranium>
+						<ComponentSpacer>5</ComponentSpacer>
+						<Luciferium>5</Luciferium>
+					</costList>
+					<recipeMaker>
+						<researchPrerequisites>
+							<li>Mawy_RoyaltyPersonaweapons</li>
+						</researchPrerequisites>
+						<skillRequirements>
+							<Crafting>15</Crafting>
+						</skillRequirements>
+						<workSkill>Crafting</workSkill>
+						<recipeUsers>
+							<li>FabricationBench</li>
+						</recipeUsers>
+						<unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+					</recipeMaker>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "MeleeWeapon_PlasmaSwordBladelink"]/statBases</xpath>
+				<value>
+					<WorkToMake>40000</WorkToMake>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<!--PERSONA ZEUSHAMMER-->
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "MeleeWeapon_ZeusHammerBladelink"]</xpath>
+				<value>
+					<costList>
+						<Plasteel>100</Plasteel>
+						<Uranium>50</Uranium>
+						<ComponentSpacer>5</ComponentSpacer>
+						<Luciferium>5</Luciferium>
+					</costList>
+					<recipeMaker>
+						<researchPrerequisites>
+							<li>Mawy_RoyaltyPersonaweapons</li>
+						</researchPrerequisites>
+						<skillRequirements>
+							<Crafting>15</Crafting>
+						</skillRequirements>
+						<workSkill>Crafting</workSkill>
+						<recipeUsers>
+							<li>FabricationBench</li>
+						</recipeUsers>
+						<unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+					</recipeMaker>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "MeleeWeapon_ZeusHammerBladelink"]/statBases</xpath>
+				<value>
+					<WorkToMake>40000</WorkToMake>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<!--PSYFOCUS EQUIPMENT-->
+
+	<!--PSYFOCUS STAFF-->
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "MeleeWeapon_PsyfocusStaff"]</xpath>
+				<value>
+					<stuffCategories>
+						<li>Metallic</li>
+					</stuffCategories>
+					<costList>
+						<ComponentSpacer>6</ComponentSpacer>
+						<Uranium>10</Uranium>
+					</costList>
+					<recipeMaker>
+						<researchPrerequisites>
+							<li>Mawy_PsyFocus</li>
+						</researchPrerequisites>
+						<skillRequirements>
+							<Crafting>12</Crafting>
+						</skillRequirements>
+						<workSkill>Crafting</workSkill>
+						<recipeUsers>
+							<li>FabricationBench</li>
+						</recipeUsers>
+						<unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+					</recipeMaker>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "MeleeWeapon_PsyfocusStaff"]/statBases</xpath>
+				<value>
+					<WorkToMake>30000</WorkToMake>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<!--PSYFOCUS HELMET-->
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "Apparel_PsyfocusHelmet"]</xpath>
+				<value>
+					<costList>
+						<Synthread>50</Synthread>
+						<Uranium>10</Uranium>
+						<ComponentSpacer>2</ComponentSpacer>
+					</costList>
+					<recipeMaker>
+						<researchPrerequisites>
+							<li>Mawy_PsyFocus</li>
+						</researchPrerequisites>
+						<skillRequirements>
+							<Crafting>10</Crafting>
+						</skillRequirements>
+						<workSkill>Crafting</workSkill>
+						<recipeUsers>
+							<li>FabricationBench</li>
+						</recipeUsers>
+						<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+					</recipeMaker>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "Apparel_PsyfocusHelmet"]/statBases</xpath>
+				<value>
+					<WorkToMake>25000</WorkToMake>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<!--PSYFOCUS SHIRT-->
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "Apparel_PsyfocusShirt"]</xpath>
+				<value>
+					<costList>
+						<Synthread>50</Synthread>
+						<Uranium>10</Uranium>
+						<ComponentSpacer>2</ComponentSpacer>
+					</costList>
+					<recipeMaker>
+						<researchPrerequisites>
+							<li>Mawy_PsyFocus</li>
+						</researchPrerequisites>
+						<skillRequirements>
+							<Crafting>10</Crafting>
+						</skillRequirements>
+						<workSkill>Crafting</workSkill>
+						<recipeUsers>
+							<li>FabricationBench</li>
+						</recipeUsers>
+						<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+					</recipeMaker>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "Apparel_PsyfocusShirt"]/statBases</xpath>
+				<value>
+					<WorkToMake>25000</WorkToMake>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<!--PSYFOCUS VEST-->
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "Apparel_PsyfocusVest"]</xpath>
+				<value>
+					<costList>
+						<Synthread>45</Synthread>
+						<Uranium>10</Uranium>
+						<ComponentSpacer>2</ComponentSpacer>
+					</costList>
+					<recipeMaker>
+						<researchPrerequisites>
+							<li>Mawy_PsyFocus</li>
+						</researchPrerequisites>
+						<skillRequirements>
+							<Crafting>10</Crafting>
+						</skillRequirements>
+						<workSkill>Crafting</workSkill>
+						<recipeUsers>
+							<li>FabricationBench</li>
+						</recipeUsers>
+						<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+					</recipeMaker>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "Apparel_PsyfocusVest"]/statBases</xpath>
+				<value>
+					<WorkToMake>25000</WorkToMake>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<!--PSYFOCUS ROBE-->
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "Apparel_PsyfocusRobe"]</xpath>
+				<value>
+					<costList>
+						<Synthread>100</Synthread>
+						<Uranium>15</Uranium>
+						<ComponentSpacer>2</ComponentSpacer>
+					</costList>
+					<recipeMaker>
+						<researchPrerequisites>
+							<li>Mawy_PsyFocus</li>
+						</researchPrerequisites>
+						<skillRequirements>
+							<Crafting>10</Crafting>
+						</skillRequirements>
+						<workSkill>Crafting</workSkill>
+						<recipeUsers>
+							<li>FabricationBench</li>
+						</recipeUsers>
+						<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+					</recipeMaker>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "Apparel_PsyfocusRobe"]/statBases</xpath>
+				<value>
+					<WorkToMake>25000</WorkToMake>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<!--PSYFOCUS SKULLCAP-->
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "Apparel_EltexSkullcap"]</xpath>
+				<value>
+					<costList>
+						<Synthread>60</Synthread>
+						<Uranium>20</Uranium>
+						<ComponentSpacer>3</ComponentSpacer>
+					</costList>
+					<recipeMaker>
+						<researchPrerequisites>
+							<li>Mawy_PsyFocus</li>
+						</researchPrerequisites>
+						<skillRequirements>
+							<Crafting>12</Crafting>
+						</skillRequirements>
+						<workSkill>Crafting</workSkill>
+						<recipeUsers>
+							<li>FabricationBench</li>
+						</recipeUsers>
+						<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+					</recipeMaker>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "Apparel_EltexSkullcap"]/statBases</xpath>
+				<value>
+					<WorkToMake>25000</WorkToMake>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>
+	

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ResearchProjectDef>
+    <defName>Mawy_Plasteel</defName>
+    <label>Plasteel</label>
+    <description>Learn to craft plasteel.</description>
+    <baseCost>4000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>AdvancedFabrication</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <techprintCount>1</techprintCount>
+    <techprintCommonality>3</techprintCommonality>
+    <techprintMarketValue>3000</techprintMarketValue>
+    <heldByFactionCategoryTags>
+      <li>Empire</li>
+      <li>Outlander</li>
+    </heldByFactionCategoryTags>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>Mawy_Hyperweave</defName>
+    <label>Hyperweave</label>
+    <description>Learn to craft hyperweave.</description>
+    <baseCost>6000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>AdvancedFabrication</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <techprintCount>1</techprintCount>
+    <techprintCommonality>3</techprintCommonality>
+    <techprintMarketValue>4000</techprintMarketValue>
+    <heldByFactionCategoryTags>
+      <li>Empire</li>
+      <li>Outlander</li>
+    </heldByFactionCategoryTags>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>Mawy_Synthread</defName>
+    <label>Synthread</label>
+    <description>Learn to craft synthread.</description>
+    <baseCost>6000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>AdvancedFabrication</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <techprintCount>1</techprintCount>
+    <techprintCommonality>3</techprintCommonality>
+    <techprintMarketValue>4000</techprintMarketValue>
+    <heldByFactionCategoryTags>
+      <li>Empire</li>
+      <li>Outlander</li>
+    </heldByFactionCategoryTags>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>Mawy_GlitterworldMedicine</defName>
+    <label>Glitterworld medicine</label>
+    <description>Craft glitterworld medicine. A kit of advanced ultra-tech medical supplies.</description>
+    <baseCost>6000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>MedicineProduction</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <techprintCount>1</techprintCount>
+    <techprintCommonality>3</techprintCommonality>
+    <techprintMarketValue>3000</techprintMarketValue>
+    <heldByFactionCategoryTags>
+      <li>Empire</li>
+    </heldByFactionCategoryTags>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>Mawy_Neutroamine</defName>
+    <label>Neutroamine</label>
+    <description>Learn to craft neutroamine.</description>
+    <baseCost>2500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>PsychiteRefining</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <techprintCount>1</techprintCount>
+    <techprintCommonality>3</techprintCommonality>
+    <techprintMarketValue>2000</techprintMarketValue>
+    <heldByFactionCategoryTags>
+      <li>Empire</li>
+      <li>Outlander</li>
+    </heldByFactionCategoryTags>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>Mawy_Luciferium</defName>
+    <label>Luciferium</label>
+    <description>Learn to craft luciferium.</description>
+    <baseCost>9000</baseCost>
+    <techLevel>Ultra</techLevel>
+    <prerequisites>
+      <li>Mawy_GlitterworldMedicine</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <techprintCount>1</techprintCount>
+    <techprintCommonality>3</techprintCommonality>
+    <techprintMarketValue>5000</techprintMarketValue>
+    <heldByFactionCategoryTags>
+      <li>Empire</li>
+    </heldByFactionCategoryTags>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>Mawy_Antigrain</defName>
+    <label>Antigrain Technology</label>
+    <description>Learn to craft the warhead shell.</description>
+    <baseCost>8000</baseCost>
+    <techLevel>Ultra</techLevel>
+    <prerequisites>
+      <li>AdvancedFabrication</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <discoveredLetterTitle>Antigrain Warheads</discoveredLetterTitle>
+    <discoveredLetterText>You can now craft the harrowing antigrain warheads. These are designed with a single grain of antimatter.\n\nCraft them at a machining table.</discoveredLetterText>
+    <discoveredLetterMinDifficulty>1</discoveredLetterMinDifficulty>
+    <techprintCount>2</techprintCount>
+    <techprintCommonality>3</techprintCommonality>
+    <techprintMarketValue>3000</techprintMarketValue>
+    <heldByFactionCategoryTags>
+      <li>Empire</li>
+    </heldByFactionCategoryTags>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>Mawy_PsychicFoilHelmet</defName>
+    <label>Psychic Foil Helmet</label>
+    <description>Learn how the Psychic Foil Helmet works and how create it.</description>
+    <baseCost>2000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>MultiAnalyzer</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <techprintCount>1</techprintCount>
+    <techprintCommonality>3</techprintCommonality>
+    <techprintMarketValue>1500</techprintMarketValue>
+    <heldByFactionCategoryTags>
+      <li>Empire</li>
+      <li>Outlander</li>
+    </heldByFactionCategoryTags>
+  </ResearchProjectDef>
+
+</Defs>

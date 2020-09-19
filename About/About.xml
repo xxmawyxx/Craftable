@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+	<name>Craftable</name>
+	<author>Mawy</author>
+	<supportedVersions>
+		<li>1.2</li>
+	</supportedVersions>
+	<packageId>Mawy.craftable</packageId>
+	<description>First of all, this is a my first mod made for a personal need. It may be out of balance or undergo changes.
+
+This mod allows you to manufacture most of the items locked in Rimworld and Royalty, grouping all those items in one mod instead of several.
+
+Add several investigations using the techprint system and requiring a medium-high amount of investigation to unlock the technologies necessary for the creation of the objects. Add:
+
+Materials
+
+	Plasteel
+	Hyperweave
+	Synthread
+	Neutroamine
+	Glitterworld Medicine
+	Luciferium
+	Broadshield Core
+
+Weapons
+
+	Monosword (and persona)
+	Plasmasword (and persona)
+	eushammer (and persona)
+	Eltex Staff
+
+Apparel
+
+	Eltex shirt
+	Eltex robe
+	Eltex vest
+	Eltex helmet
+	Eltex skullcap
+</description>
+	<modDependencies>
+		<li>
+			<packageId>Ludeon.RimWorld.Royalty</packageId>
+			<displayName>Royalty</displayName>
+			<downloadUrl>https://store.steampowered.com/app/1149640/RimWorld__Royalty/</downloadUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+	</loadAfter>
+</ModMetaData>
