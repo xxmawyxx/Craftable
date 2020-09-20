@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 	<!--ROYALTY WEAPONS-->
-
 	<!--MONOSWORD-->
 	<Operation Class="PatchOperationSequence">
 		<operations>
@@ -29,9 +28,11 @@
 				</value>
 			</li>
 			<li Class="PatchOperationAdd">
-				<xpath>/Defs/ThingDef[defName = "MeleeWeapon_MonoSword"]/statBases</xpath>
+				<xpath>/Defs/ThingDef[defName = "MeleeWeapon_MonoSword"]</xpath>
 				<value>
-					<WorkToMake>40000</WorkToMake>
+					<statBases>
+						<WorkToMake>40000</WorkToMake>
+					</statBases>
 				</value>
 			</li>
 		</operations>
@@ -64,9 +65,11 @@
 				</value>
 			</li>
 			<li Class="PatchOperationAdd">
-				<xpath>/Defs/ThingDef[defName = "MeleeWeapon_PlasmaSword"]/statBases</xpath>
+				<xpath>/Defs/ThingDef[defName = "MeleeWeapon_PlasmaSword"]</xpath>
 				<value>
-					<WorkToMake>40000</WorkToMake>
+					<statBases>
+						<WorkToMake>40000</WorkToMake>
+					</statBases>
 				</value>
 			</li>
 		</operations>
@@ -99,13 +102,17 @@
 				</value>
 			</li>
 			<li Class="PatchOperationAdd">
-				<xpath>/Defs/ThingDef[defName = "MeleeWeapon_Zeushammer"]/statBases</xpath>
+				<xpath>/Defs/ThingDef[defName = "MeleeWeapon_Zeushammer"]</xpath>
 				<value>
-					<WorkToMake>40000</WorkToMake>
+					<statBases>
+						<WorkToMake>40000</WorkToMake>
+					</statBases>
 				</value>
 			</li>
 		</operations>
 	</Operation>
+
+
 	<!--PERSONA WEAPONS-->
 
 	<!--PERSONA MONOSWORD-->
@@ -138,7 +145,7 @@
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/ThingDef[defName = "MeleeWeapon_MonoSwordBladelink"]/statBases</xpath>
 				<value>
-					<WorkToMake>40000</WorkToMake>
+					<WorkToMake>60000</WorkToMake>
 				</value>
 			</li>
 		</operations>
@@ -174,7 +181,7 @@
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/ThingDef[defName = "MeleeWeapon_PlasmaSwordBladelink"]/statBases</xpath>
 				<value>
-					<WorkToMake>40000</WorkToMake>
+					<WorkToMake>60000</WorkToMake>
 				</value>
 			</li>
 		</operations>
@@ -210,7 +217,7 @@
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/ThingDef[defName = "MeleeWeapon_ZeusHammerBladelink"]/statBases</xpath>
 				<value>
-					<WorkToMake>40000</WorkToMake>
+					<WorkToMake>60000</WorkToMake>
 				</value>
 			</li>
 		</operations>
@@ -423,7 +430,7 @@
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/ThingDef[defName = "Apparel_EltexSkullcap"]/statBases</xpath>
 				<value>
-					<WorkToMake>25000</WorkToMake>
+					<WorkToMake>35000</WorkToMake>
 				</value>
 			</li>
 		</operations>

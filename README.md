@@ -6,23 +6,26 @@ This mod allows you to manufacture most of the items locked in Rimworld and Roya
 
 Add several investigations using the techprint system and requiring a medium-high amount of investigation to unlock the technologies necessary for the creation of the items.
 
-Many of the items are balanced with respect to the MV(Market Value) and the amount of work.
+Many of the items are balanced with respect to the MV(Market Value) and the amount of work, techprint have custom MV and they are expensive. For example: resurrector serum need 5 techprint and each techprint cost 10.000 silver plus 30.000 research point and need 3.000 points of work to make (cataphract armor have 1.000, reference).
 
 
 ![content](https://i.imgur.com/vbB8QVk.png)
 
 
-![1](https://i.imgur.com/4pcPfgD.png)
-![1](https://i.imgur.com/FLH2JG4.png)
-![1](https://i.imgur.com/lH732hY.png)
-![1](https://i.imgur.com/DPfPEPj.png)
-![1](https://i.imgur.com/i0vIbG8.png)
-![1](https://i.imgur.com/UInXcsE.png)
-![1](https://i.imgur.com/9vp2hZT.png)
-![1](https://i.imgur.com/uaHOtAN.png)
-![1](https://i.imgur.com/lXcwpHj.png)
-![1](https://i.imgur.com/wvsBOgh.png)
-![1](https://i.imgur.com/VfX7B6D.png)
+![1](https://i.imgur.com/K3Rt5RL.png)
+![1](https://i.imgur.com/p3JWJ5w.png)
+![1](https://i.imgur.com/k6LVPU1.png)
+![1](https://i.imgur.com/TZSi7Bg.png)
+![1](https://i.imgur.com/Bh5sUAm.png)
+![1](https://i.imgur.com/S0ToN1S.png)
+![1](https://i.imgur.com/ReoLmPn.png)
+![1](https://i.imgur.com/JZIZXWb.png)
+![1](https://i.imgur.com/ZUwDhpw.png)
+![1](https://i.imgur.com/k68gYIS.png)
+![1](https://i.imgur.com/Vw7Cypt.png)
+![1](https://i.imgur.com/p3I4e42.png)
+![1](https://i.imgur.com/Fv6wqPS.png)
+
 
 *Royalty weapons and persona weapons go into 2 separate investigations with 3 techprint for each. The cost of the swords is similar to the longsword and the zeushammer to the warhammer. Table below.
 
@@ -49,6 +52,22 @@ Many of the items are balanced with respect to the MV(Market Value) and the amou
 | Eltex Robe  |  100 synthread + 15 uranium + 2 spacer component |
 |  Eltex Skullcap |  60 synthread + 20 uranium + 3 spacer component |
 
+
+
+![1](https://i.imgur.com/yF7qXjS.png)
+
+20/9/20
+- Load order conflict with Combat extended - Vanilla fixed: need to load before if CE is load. This bug throw error if CE is not loaded.
+- Work to make increasing in x4 recipe for glitterworld medicine and luciferium.
+- Work to make increasing for antigrain warhead, royalty weapons and persona weapons.
+- Work to make increasing for eltex skullcap.
+- Multiple research increasing and amount of techprint.
+- Custom techprint cost.
+- Preview image minor change.
+- Mech Serum healer and resurrector added.
+
+18/9/20
+- Dimensions on preview image.
 
 
 ![FAQ](https://i.imgur.com/Fpg70LW.png)

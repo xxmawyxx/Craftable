@@ -26,7 +26,7 @@
     <defName>Mawy_Royaltyweapons</defName>
     <label>Ultratech weapons</label>
     <description>Learn to craft the Monosword, Plasmasword and Zeushammer.</description>
-    <baseCost>10000</baseCost>
+    <baseCost>18000</baseCost>
     <techLevel>Spacer</techLevel>
     <prerequisites>
       <li>Fabrication</li>
@@ -47,7 +47,7 @@
     <defName>Mawy_RoyaltyPersonaweapons</defName>
     <label>Persona weapons</label>
     <description>Learn to craft the Persona ultratech weapons.</description>
-    <baseCost>12000</baseCost>
+    <baseCost>25000</baseCost>
     <techLevel>Spacer</techLevel>
     <prerequisites>
       <li>Fabrication</li>
@@ -69,7 +69,7 @@
     <defName>Mawy_PsyFocus</defName>
     <label>Psyfocus equipment</label>
     <description>Learn to craft the Empire's psyfocus equipment.</description>
-    <baseCost>9000</baseCost>
+    <baseCost>15000</baseCost>
     <techLevel>Spacer</techLevel>
     <prerequisites>
       <li>Fabrication</li>

@@ -305,7 +305,7 @@
         </recipeUsers>
         <description>Make Glitterworld Medicine.</description>
         <jobString>Making Glitterworld Medicine</jobString>
-        <workAmount>10000</workAmount>
+        <workAmount>40000</workAmount>
         <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
         <effectWorking>Surgery</effectWorking>
         <soundWorking>Recipe_Surgery</soundWorking>
@@ -362,7 +362,7 @@
         </recipeUsers>
         <description>Make Luciferium</description>
         <jobString>Making Luciferium</jobString>
-        <workAmount>5000</workAmount>
+        <workAmount>15000</workAmount>
         <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
         <effectWorking>Cook</effectWorking>
         <soundWorking>Recipe_Brewing</soundWorking>
@@ -428,7 +428,7 @@
         </recipeUsers>
         <description>Make Luciferium</description>
         <jobString>Making Luciferium</jobString>
-        <workAmount>5000</workAmount>
+        <workAmount>60000</workAmount>
         <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
         <effectWorking>Cook</effectWorking>
         <soundWorking>Recipe_Brewing</soundWorking>

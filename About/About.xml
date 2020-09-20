@@ -49,4 +49,7 @@ Apparel
 		<li>Ludeon.RimWorld</li>
 		<li>Ludeon.RimWorld.Royalty</li>
 	</loadAfter>
+	<loadBefore>
+		<li>CETeam.CombatExtended</li>
+	</loadBefore>
 </ModMetaData>
