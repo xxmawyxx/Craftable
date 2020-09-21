@@ -72,19 +72,19 @@ Many of the items are balanced with respect to the MV(Market Value) and the amou
 
 ![FAQ](https://i.imgur.com/Fpg70LW.png)
 
-Q: Is this mod compatible with Combat Extended?
+Q: Is this mod compatible with Combat Extended?<br />
 A: I play with Combat Extended so yeah.
 
-Q: Is this mod save game compatible?
+Q: Is this mod save game compatible?<br />
 A: Yes, It's simple XML mod.
 
-Q: Is it compatible with X mod?
+Q: Is it compatible with X mod?<br />
 A: Should be, I play with 300+ moids and 0 problems.
 
-Q: Why X item are not included?
+Q: Why X item are not included?<br />
 A: I try not unbalanced the game (not much) and do things with logic. Items from Empire, Glitterworld or human society will surely add but ancient or archotech items not because they aren't supposed to be within human knowledge (Rimworld lore).
 
-Q: Will you add items/equipment from others mods?
+Q: Will you add items/equipment from others mods?<br />
 A: Most likely, it may be from Vanilla Series.
 
 
