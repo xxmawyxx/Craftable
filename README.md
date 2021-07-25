@@ -91,6 +91,7 @@ A: Most likely, it may be from Vanilla Series.
 ![legal](https://i.imgur.com/ngKjBqK.png)
 
 All XML is made for me, Mawy.
+Korean translation by Inbae (steam user).
 
 Credit to @Misha [Craftable Royalty Weapons](https://steamcommunity.com/sharedfiles/filedetails/?id=2019999267) as reference to royalty weapons XML.
 
