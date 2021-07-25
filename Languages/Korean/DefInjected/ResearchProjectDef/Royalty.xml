@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Mawy_BroadshieldCore.label>보호막 핵 제작</Mawy_BroadshieldCore.label>
+  <Mawy_BroadshieldCore.description>보호막 핵을 제작법을 배웁니다.</Mawy_BroadshieldCore.description>
+
+  <Mawy_Royaltyweapons.label>로얄티 무기</Mawy_Royaltyweapons.label>
+  <Mawy_Royaltyweapons.description>단분자검, 플라즈마 검, 제우스해머 제작법을 배웁니다.</Mawy_Royaltyweapons.description>
+
+  <Mawy_RoyaltyPersonaweapons.label>결속 무기</Mawy_RoyaltyPersonaweapons.label>
+  <Mawy_RoyaltyPersonaweapons.description>결속 무기 제작법을 배웁니다..</Mawy_RoyaltyPersonaweapons.description>
+
+  <Mawy_PsyFocus.label>초집중 장비</Mawy_PsyFocus.label>
+  <Mawy_PsyFocus.description>제국의 초집중 장비 제작법을 배웁니다.</Mawy_PsyFocus.description>
+
+
+</LanguageData>

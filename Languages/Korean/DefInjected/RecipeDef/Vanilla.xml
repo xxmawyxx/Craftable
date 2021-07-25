@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- PLASTEEL -->
+
+  <Mawy_MakePlasteel.label>플라스틸 정제</Mawy_MakePlasteel.label>
+  <Mawy_MakePlasteel.description>철과 화학연료로 플라스틸을 정제합니다..</Mawy_MakePlasteel.description>
+  <Mawy_MakePlasteel.jobString>플라스틸 정제 중.</Mawy_MakePlasteel.jobString>
+
+  <Mawy_MakeHyperweave.label>초경조직 제작</Mawy_MakeHyperweave.label>
+  <Mawy_MakeHyperweave.description>합성원단과 플라스틸로 초경조직을 제작합니다.</Mawy_MakeHyperweave.description>
+  <Mawy_MakeHyperweave.jobString>초경조직 제작 중.</Mawy_MakeHyperweave.jobString>
+
+
+  <!-- SYNTHREAD -->
+
+  <Mawy_MakeSynthread.label>합성원단 제작</Mawy_MakeSynthread.label>
+  <Mawy_MakeSynthread.description>천과 플라스틸로 합성원단을 제작합니다.</Mawy_MakeSynthread.description>
+  <Mawy_MakeSynthread.jobString>합성원단 제작 중.</Mawy_MakeSynthread.jobString>
+
+
+  <!-- NEUTROAMINE -->
+
+  <Mawy_MakeNeutroamine.label>뉴트로아민 제작</Mawy_MakeNeutroamine.label>
+  <Mawy_MakeNeutroamine.description>광이풀과 생약으로 뉴트로아민을 제작합니다.</Mawy_MakeNeutroamine.description>
+  <Mawy_MakeNeutroamine.jobString>뉴트로아민 제작 중.</Mawy_MakeNeutroamine.jobString>
+
+  <Mawy_MakeNeutroamine4.label>뉴트로아민 제작 x4</Mawy_MakeNeutroamine4.label>
+  <Mawy_MakeNeutroamine4.description>광이풀과 생약으로 뉴트로아민을 제작합니다.</Mawy_MakeNeutroamine4.description>
+  <Mawy_MakeNeutroamine4.jobString>뉴트로아민 제작 중.</Mawy_MakeNeutroamine4.jobString>
+
+
+  <!-- GLITTERWORLD MEDICINE -->
+
+  <Mawy_MakeGlitterworldMedicine.label>번화계 약품 제작</Mawy_MakeGlitterworldMedicine.label>
+  <Mawy_MakeGlitterworldMedicine.description>뉴트로아민, 초경조직, 약품으로 번화계 약품을 제작합니다.</Mawy_MakeGlitterworldMedicine.description>
+  <Mawy_MakeGlitterworldMedicine.jobString>번화계 약품 제작 중.</Mawy_MakeGlitterworldMedicine.jobString>
+
+  <Mawy_MakeGlitterworldMedicine4.label>번화계 약품 제작 x4</Mawy_MakeGlitterworldMedicine4.label>
+  <Mawy_MakeGlitterworldMedicine4.description>뉴트로아민, 초경조직, 약품번화계 약품을 제작합니다.</Mawy_MakeGlitterworldMedicine4.description>
+  <Mawy_MakeGlitterworldMedicine4.jobString>번화계 약품 제작 중.</Mawy_MakeGlitterworldMedicine4.jobString>
+
+
+  <!-- LUCIFERIUM -->
+
+  <Mawy_MakeLuciferium.label>루시페륨 제작</Mawy_MakeLuciferium.label>
+  <Mawy_MakeLuciferium.description>광이풀, 번화계 약품, 뉴트로아민, 플라스틸로 루시페륨을 제작합니다.</Mawy_MakeLuciferium.description>
+  <Mawy_MakeLuciferium.jobString>루시페륨 제작 중.</Mawy_MakeLuciferium.jobString>
+
+  <Mawy_MakeLuciferium4.label>루시페륨 제작 x4</Mawy_MakeLuciferium4.label>
+  <Mawy_MakeLuciferium4.description>광이풀, 번화계 약품, 뉴트로아민, 플라스틸로 루시페륨을 제작합니다.</Mawy_MakeLuciferium4.description>
+  <Mawy_MakeLuciferium4.jobString>루시페륨 제작 중.</Mawy_MakeLuciferium4.jobString>
+
+
+</LanguageData>
