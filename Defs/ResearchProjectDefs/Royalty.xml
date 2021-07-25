@@ -27,7 +27,7 @@
 
   <ResearchProjectDef>
     <defName>Mawy_Royaltyweapons</defName>
-    <label>Ultratech weapons</label>
+    <label>Royalty weapons</label>
     <description>Learn to craft the Monosword, Plasmasword and Zeushammer.</description>
     <baseCost>18000</baseCost>
     <techLevel>Spacer</techLevel>

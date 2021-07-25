@@ -130,7 +130,7 @@
               <Crafting>17</Crafting>
               <Intellectual>17</Intellectual>
             </skillRequirements>
-            <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+            <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
           </recipeMaker>
         </value>
       </li>
