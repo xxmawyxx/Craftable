@@ -2,7 +2,7 @@
 <Patch>
   <Operation Class="PatchOperationSequence">
     <operations>
-      <li Class="PatchOperationAdd">
+    <!--  <li Class="PatchOperationAdd">
         <xpath>/Defs/ThingDef[defName="Shell_AntigrainWarhead"]</xpath>
         <value>
           <costList>
@@ -32,7 +32,6 @@
           </recipeMaker>
         </value>
       </li>
-<!--
       <li Class="PatchOperationAdd">
         <xpath>/Defs/ThingDef[defName="MedicineUltratech"]</xpath>
         <value>
