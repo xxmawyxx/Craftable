@@ -2,59 +2,6 @@
 <Patch>
   <Operation Class="PatchOperationSequence">
     <operations>
-    <!--  <li Class="PatchOperationAdd">
-        <xpath>/Defs/ThingDef[defName="Shell_AntigrainWarhead"]</xpath>
-        <value>
-          <costList>
-            <Steel>100</Steel>
-            <Uranium>20</Uranium>
-            <Plasteel>20</Plasteel>
-            <ComponentIndustrial>5</ComponentIndustrial>
-            <ComponentSpacer>3</ComponentSpacer>
-          </costList>
-          <recipeMaker>
-            <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-            <effectWorking>Cook</effectWorking>
-            <soundWorking>Recipe_Machining</soundWorking>
-            <workAmount>20000</workAmount>
-            <workSkill>Crafting</workSkill>
-            <recipeUsers>
-              <li>TableMachining</li>
-            </recipeUsers>
-            <skillRequirements>
-              <Crafting>15</Crafting>
-              <Intellectual>12</Intellectual>
-            </skillRequirements>
-            <productCount>1</productCount>
-            <researchPrerequisites>
-              <li>Mawy_Antigrain</li>
-            </researchPrerequisites>
-          </recipeMaker>
-        </value>
-      </li>
-      <li Class="PatchOperationAdd">
-        <xpath>/Defs/ThingDef[defName="MedicineUltratech"]</xpath>
-        <value>
-          <costList>
-            <MedicineIndustrial>1</MedicineIndustrial>
-            <Neutroamine>1</Neutroamine>
-            <Hyperweave>5</Hyperweave>
-          </costList>
-          <recipeMaker>
-            <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
-            <workSkill>Intellectual</workSkill>
-            <recipeUsers>
-              <li>DrugLab</li>
-            </recipeUsers>
-            <researchPrerequisite>Mawy_GlitterworldMedicine</researchPrerequisite>
-            <skillRequirements>
-              <Crafting>12</Crafting>
-              <Intellectual>10</Intellectual>
-            </skillRequirements>
-          </recipeMaker>
-        </value>
-      </li>
--->
       <li Class="PatchOperationAdd">
         <xpath>/Defs/ThingDef[defName="Apparel_PsychicFoilHelmet"]</xpath>
         <value>
@@ -89,7 +36,7 @@
             <ComponentSpacer>2</ComponentSpacer>
           </costList>
           <recipeMaker>
-            <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+            <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
             <effectWorking>Surgery</effectWorking>
             <soundWorking>Recipe_Surgery</soundWorking>
             <workSkill>Crafting</workSkill>
@@ -116,7 +63,7 @@
             <ComponentSpacer>2</ComponentSpacer>
           </costList>
           <recipeMaker>
-            <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+            <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
             <effectWorking>Surgery</effectWorking>
             <soundWorking>Recipe_Surgery</soundWorking>
             <workSkill>Crafting</workSkill>

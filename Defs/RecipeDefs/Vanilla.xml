@@ -7,7 +7,7 @@
         <label>Refine plasteel</label>
         <description>Refine plasteel from steel and chemfuel.</description>
         <jobString>Refining plasteel.</jobString>
-        <workSpeedStat>SmeltingSpeed</workSpeedStat>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
         <effectWorking>Smelt</effectWorking>
         <soundWorking>Recipe_Smelt</soundWorking>
         <workAmount>5000</workAmount>
@@ -154,7 +154,7 @@
         <description>Make Neutroamine from psychoid leaves and herbal medicine.</description>
         <jobString>Making Neutroamine</jobString>
         <workAmount>1200</workAmount>
-        <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
         <effectWorking>Cook</effectWorking>
         <soundWorking>Recipe_Brewing</soundWorking>
         <researchPrerequisite>Mawy_Neutroamine</researchPrerequisite>
@@ -201,7 +201,7 @@
         <description>Make Neutroamine from psychoid leaves and herbal medicine.</description>
         <jobString>Making Neutroamine</jobString>
         <workAmount>6000</workAmount>
-        <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
         <effectWorking>Cook</effectWorking>
         <soundWorking>Recipe_Brewing</soundWorking>
         <researchPrerequisite>Mawy_Neutroamine</researchPrerequisite>
@@ -249,7 +249,7 @@
         <description>Make Glitterworld Medicine.</description>
         <jobString>Making Glitterworld Medicine</jobString>
         <workAmount>10000</workAmount>
-        <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
         <effectWorking>Surgery</effectWorking>
         <soundWorking>Recipe_Surgery</soundWorking>
         <researchPrerequisite>Mawy_GlitterworldMedicine</researchPrerequisite>
@@ -305,7 +305,7 @@
         <description>Make Glitterworld Medicine.</description>
         <jobString>Making Glitterworld Medicine</jobString>
         <workAmount>40000</workAmount>
-        <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
         <effectWorking>Surgery</effectWorking>
         <soundWorking>Recipe_Surgery</soundWorking>
         <researchPrerequisite>Mawy_GlitterworldMedicine</researchPrerequisite>
@@ -362,7 +362,7 @@
         <description>Make Luciferium</description>
         <jobString>Making Luciferium</jobString>
         <workAmount>15000</workAmount>
-        <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
         <effectWorking>Cook</effectWorking>
         <soundWorking>Recipe_Brewing</soundWorking>
         <researchPrerequisite>Mawy_Luciferium</researchPrerequisite>
@@ -428,7 +428,7 @@
         <description>Make Luciferium</description>
         <jobString>Making Luciferium</jobString>
         <workAmount>60000</workAmount>
-        <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
         <effectWorking>Cook</effectWorking>
         <soundWorking>Recipe_Brewing</soundWorking>
         <researchPrerequisite>Mawy_Luciferium</researchPrerequisite>
