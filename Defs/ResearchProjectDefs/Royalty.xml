@@ -1,100 +1,96 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-  <ResearchProjectDef>
-    <defName>Mawy_BroadshieldCore</defName>
-    <label>Broadshield Core</label>
-    <description>Learn to craft the Broadshield Core.</description>
-    <baseCost>8000</baseCost>
-    <techLevel>Spacer</techLevel>
-    <prerequisites>
-      <li>Fabrication</li>
-    </prerequisites>
-    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-    <requiredResearchFacilities>
-      <li>MultiAnalyzer</li>
-    </requiredResearchFacilities>
-    <techprintCount>2</techprintCount>
-    <techprintCommonality>3</techprintCommonality>
-    <techprintMarketValue>5000</techprintMarketValue>
-    <heldByFactionCategoryTags>
-      <li>Empire</li>
-    </heldByFactionCategoryTags>
-           <tab>Craftable</tab>
-    <researchViewX>1.50</researchViewX>
-		<researchViewY>4.00</researchViewY>
-  </ResearchProjectDef>
-
-  <ResearchProjectDef>
-    <defName>Mawy_Royaltyweapons</defName>
-    <label>Royalty weapons</label>
-    <description>Learn to craft the Monosword, Plasmasword and Zeushammer.</description>
-    <baseCost>18000</baseCost>
-    <techLevel>Spacer</techLevel>
-    <prerequisites>
-      <li>Fabrication</li>
-    </prerequisites>
-    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-    <requiredResearchFacilities>
-      <li>MultiAnalyzer</li>
-    </requiredResearchFacilities>
-    <techprintCount>3</techprintCount>
-    <techprintCommonality>3</techprintCommonality>
-    <techprintMarketValue>4000</techprintMarketValue>
-    <heldByFactionCategoryTags>
-      <li>Empire</li>
-    </heldByFactionCategoryTags>
-           <tab>Craftable</tab>
-    <researchViewX>2.75</researchViewX>
-		<researchViewY>4.00</researchViewY>
-  </ResearchProjectDef>
-
-  <ResearchProjectDef>
-    <defName>Mawy_RoyaltyPersonaweapons</defName>
-    <label>Persona weapons</label>
-    <description>Learn to craft the Persona ultratech weapons.</description>
-    <baseCost>25000</baseCost>
-    <techLevel>Spacer</techLevel>
-    <prerequisites>
-      <li>Fabrication</li>
-      <li>Mawy_Royaltyweapons</li>
-    </prerequisites>
-    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-    <requiredResearchFacilities>
-      <li>MultiAnalyzer</li>
-    </requiredResearchFacilities>
-    <techprintCount>3</techprintCount>
-    <techprintCommonality>3</techprintCommonality>
-    <techprintMarketValue>5000</techprintMarketValue>
-    <heldByFactionCategoryTags>
-      <li>Empire</li>
-    </heldByFactionCategoryTags>
-           <tab>Craftable</tab>
-    <researchViewX>3.75</researchViewX>
-		<researchViewY>4.00</researchViewY>
-  </ResearchProjectDef>
-
-  <ResearchProjectDef>
-    <defName>Mawy_PsyFocus</defName>
-    <label>Psyfocus equipment</label>
-    <description>Learn to craft the Empire's psyfocus equipment.</description>
-    <baseCost>15000</baseCost>
-    <techLevel>Spacer</techLevel>
-    <prerequisites>
-      <li>Fabrication</li>
-    </prerequisites>
-    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-    <requiredResearchFacilities>
-      <li>MultiAnalyzer</li>
-    </requiredResearchFacilities>
-    <techprintCount>4</techprintCount>
-    <techprintCommonality>3</techprintCommonality>
-    <techprintMarketValue>3000</techprintMarketValue>
-    <heldByFactionCategoryTags>
-      <li>Empire</li>
-    </heldByFactionCategoryTags>
-           <tab>Craftable</tab>
-    <researchViewX>2.75</researchViewX>
-		<researchViewY>4.5</researchViewY>
-  </ResearchProjectDef>
+    <ResearchProjectDef>
+        <defName>Mawy_BroadshieldCore</defName>
+        <label>Broadshield Core</label>
+        <description>Learn to craft the Broadshield Core.</description>
+        <baseCost>8000</baseCost>
+        <techLevel>Spacer</techLevel>
+        <prerequisites>
+            <li>Fabrication</li>
+        </prerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <techprintCount>2</techprintCount>
+        <techprintCommonality>3</techprintCommonality>
+        <techprintMarketValue>5000</techprintMarketValue>
+        <heldByFactionCategoryTags>
+            <li>Empire</li>
+        </heldByFactionCategoryTags>
+        <tab>Craftable</tab>
+        <researchViewX>1.50</researchViewX>
+        <researchViewY>4.00</researchViewY>
+    </ResearchProjectDef>
+    <ResearchProjectDef>
+        <defName>Mawy_Royaltyweapons</defName>
+        <label>Royalty weapons</label>
+        <description>Learn to craft the Monosword, Plasmasword and Zeushammer.</description>
+        <baseCost>18000</baseCost>
+        <techLevel>Spacer</techLevel>
+        <prerequisites>
+            <li>Fabrication</li>
+        </prerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <techprintCount>3</techprintCount>
+        <techprintCommonality>3</techprintCommonality>
+        <techprintMarketValue>4000</techprintMarketValue>
+        <heldByFactionCategoryTags>
+            <li>Empire</li>
+        </heldByFactionCategoryTags>
+        <tab>Craftable</tab>
+        <researchViewX>2.75</researchViewX>
+        <researchViewY>4.00</researchViewY>
+    </ResearchProjectDef>
+    <ResearchProjectDef>
+        <defName>Mawy_RoyaltyPersonaweapons</defName>
+        <label>Persona weapons</label>
+        <description>Learn to craft the Persona ultratech weapons.</description>
+        <baseCost>25000</baseCost>
+        <techLevel>Spacer</techLevel>
+        <prerequisites>
+            <li>Fabrication</li>
+            <li>Mawy_Royaltyweapons</li>
+        </prerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <techprintCount>3</techprintCount>
+        <techprintCommonality>3</techprintCommonality>
+        <techprintMarketValue>5000</techprintMarketValue>
+        <heldByFactionCategoryTags>
+            <li>Empire</li>
+        </heldByFactionCategoryTags>
+        <tab>Craftable</tab>
+        <researchViewX>3.75</researchViewX>
+        <researchViewY>4.00</researchViewY>
+    </ResearchProjectDef>
+    <ResearchProjectDef>
+        <defName>Mawy_PsyFocus</defName>
+        <label>Psyfocus equipment</label>
+        <description>Learn to craft the Empire's psyfocus equipment.</description>
+        <baseCost>15000</baseCost>
+        <techLevel>Spacer</techLevel>
+        <prerequisites>
+            <li>Fabrication</li>
+        </prerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <techprintCount>4</techprintCount>
+        <techprintCommonality>3</techprintCommonality>
+        <techprintMarketValue>3000</techprintMarketValue>
+        <heldByFactionCategoryTags>
+            <li>Empire</li>
+        </heldByFactionCategoryTags>
+        <tab>Craftable</tab>
+        <researchViewX>2.75</researchViewX>
+        <researchViewY>4.5</researchViewY>
+    </ResearchProjectDef>
 </Defs>

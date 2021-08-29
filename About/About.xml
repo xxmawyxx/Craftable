@@ -40,15 +40,16 @@ Apparel
 	Eltex skullcap
 </description>
 	<modDependencies>
-		<li>
+		<!-- <li>
 			<packageId>Ludeon.RimWorld.Royalty</packageId>
 			<displayName>Royalty</displayName>
 			<downloadUrl>https://store.steampowered.com/app/1149640/RimWorld__Royalty/</downloadUrl>
-		</li>
+		</li> -->
 	</modDependencies>
 	<loadAfter>
 		<li>Ludeon.RimWorld</li>
 		<li>Ludeon.RimWorld.Royalty</li>
+		<li>Ludeon.RimWorld.Ideology</li>
 	</loadAfter>
 	<loadBefore>
 		<li>CETeam.CombatExtended</li>

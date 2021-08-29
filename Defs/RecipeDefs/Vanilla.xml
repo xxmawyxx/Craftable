@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
     <!--PLASTEEL-->
     <RecipeDef>
         <defName>Mawy_MakePlasteel</defName>
@@ -47,7 +46,6 @@
         </skillRequirements>
         <workSkill>Crafting</workSkill>
     </RecipeDef>
-
     <RecipeDef>
         <defName>Mawy_MakeHyperweave</defName>
         <label>Make Hyperweave</label>
@@ -94,7 +92,6 @@
         </skillRequirements>
         <workSkill>Crafting</workSkill>
     </RecipeDef>
-
     <!--SYNTHREAD-->
     <RecipeDef>
         <defName>Mawy_MakeSynthread</defName>
@@ -142,9 +139,7 @@
         </skillRequirements>
         <workSkill>Crafting</workSkill>
     </RecipeDef>
-
     <!-- NEUTROAMINE -->
-
     <RecipeDef>
         <defName>Mawy_MakeNeutroamine</defName>
         <label>Make Neutroamine</label>
@@ -190,8 +185,6 @@
         </skillRequirements>
         <workSkill>Crafting</workSkill>
     </RecipeDef>
-
-
     <RecipeDef>
         <defName>Mawy_MakeNeutroamine4</defName>
         <label>Make Neutroamine x4</label>
@@ -237,9 +230,7 @@
         </skillRequirements>
         <workSkill>Crafting</workSkill>
     </RecipeDef>
-
     <!-- GLITTERWORLD MEDICINE-->
-
     <RecipeDef>
         <defName>Mawy_MakeGlitterworldMedicine</defName>
         <label>Make Glitterworld Medicine</label>
@@ -294,8 +285,6 @@
         </skillRequirements>
         <workSkill>Crafting</workSkill>
     </RecipeDef>
-
-
     <RecipeDef>
         <defName>Mawy_MakeGlitterworldMedicine4</defName>
         <label>Make Glitterworld Medicine x4</label>
@@ -350,9 +339,7 @@
         </skillRequirements>
         <workSkill>Crafting</workSkill>
     </RecipeDef>
-
     <!-- LUCIFERIUM-->
-
     <RecipeDef>
         <defName>Mawy_MakeLuciferium</defName>
         <label>Make Luciferium</label>
@@ -416,9 +403,6 @@
         </skillRequirements>
         <workSkill>Crafting</workSkill>
     </RecipeDef>
-
-
-
     <RecipeDef>
         <defName>Mawy_MakeLuciferium4</defName>
         <label>Make Luciferium x4</label>
@@ -482,7 +466,6 @@
         </skillRequirements>
         <workSkill>Crafting</workSkill>
     </RecipeDef>
-
     <RecipeDef>
         <defName>Mawy_Antigrain</defName>
         <label>Make Antigrain shell</label>
