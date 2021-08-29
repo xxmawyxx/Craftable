@@ -55,6 +55,23 @@ Many of the items are balanced with respect to the MV(Market Value) and the amou
 
 
 ![1](https://i.imgur.com/yF7qXjS.png)
+29/8/21
+- Remove Royalty dependencies.
+
+16/8/21
+- Change to GeneralLaborSpeed.
+
+3/8/21
+- Antigrain shell change from xpatch to recipedef.
+
+25/7/21
+- Korean translation by Inbae.
+
+23/7/21
+- Balance.
+
+21/9/20
+- Research tab added.
 
 20/9/20
 - Load order conflict with Combat extended - Vanilla fixed: need to load before if CE is load. This bug throw error if CE is not loaded.
