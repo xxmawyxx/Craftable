@@ -42,7 +42,6 @@ Many of the items are balanced with respect to the MV(Market Value) and the amou
 
 
 
-
 |  Equipment | Cost |
 |---|---|
 | Eltex Staff  | 10 uranium + 6 spacer component  |
