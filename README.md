@@ -55,6 +55,9 @@ Many of the items are balanced with respect to the MV(Market Value) and the amou
 
 
 ![1](https://i.imgur.com/yF7qXjS.png)
+
+31/8/21
+- Fix for vanilla research.
 29/8/21
 - Remove Royalty dependencies.
 

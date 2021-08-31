@@ -412,6 +412,137 @@
                 <li Class="PatchOperationRemove">
                     <xpath>/Defs/RecipeDef[defName = "Mawy_MakeBroadshieldCore"]</xpath>
                 </li>
+                <!-- REMOVE TECHPRINT FROM VANILLA RESEARCH -->
+                <!-- PLASTEEL -->
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ResearchProjectDef[defName="Mawy_Plasteel"]/techprintCount</xpath>
+                </li>
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ResearchProjectDef[defName="Mawy_Plasteel"]/techprintCommonality</xpath>
+                </li>
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ResearchProjectDef[defName="Mawy_Plasteel"]/techprintMarketValue</xpath>
+                </li>
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ResearchProjectDef[defName="Mawy_Plasteel"]/heldByFactionCategoryTags</xpath>
+                </li>
+                <!-- HYPERWEAVE -->
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ResearchProjectDef[defName="Mawy_Hyperweave"]/techprintCount</xpath>
+                </li>
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ResearchProjectDef[defName="Mawy_Hyperweave"]/techprintCommonality</xpath>
+                </li>
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ResearchProjectDef[defName="Mawy_Hyperweave"]/techprintMarketValue</xpath>
+                </li>
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ResearchProjectDef[defName="Mawy_Hyperweave"]/heldByFactionCategoryTags</xpath>
+                </li>
+                <!-- SYNTHREAD -->
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ResearchProjectDef[defName="Mawy_Synthread"]/techprintCount</xpath>
+                </li>
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ResearchProjectDef[defName="Mawy_Synthread"]/techprintCommonality</xpath>
+                </li>
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ResearchProjectDef[defName="Mawy_Synthread"]/techprintMarketValue</xpath>
+                </li>
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ResearchProjectDef[defName="Mawy_Synthread"]/heldByFactionCategoryTags</xpath>
+                </li>
+                <!-- GLITTERWORLD MEDICINE -->
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ResearchProjectDef[defName="Mawy_GlitterworldMedicine"]/techprintCount</xpath>
+                </li>
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ResearchProjectDef[defName="Mawy_GlitterworldMedicine"]/techprintCommonality</xpath>
+                </li>
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ResearchProjectDef[defName="Mawy_GlitterworldMedicine"]/techprintMarketValue</xpath>
+                </li>
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ResearchProjectDef[defName="Mawy_GlitterworldMedicine"]/heldByFactionCategoryTags</xpath>
+                </li>
+                <!-- NEUTROAMINE -->
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ResearchProjectDef[defName="Mawy_Neutroamine"]/techprintCount</xpath>
+                </li>
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ResearchProjectDef[defName="Mawy_Neutroamine"]/techprintCommonality</xpath>
+                </li>
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ResearchProjectDef[defName="Mawy_Neutroamine"]/techprintMarketValue</xpath>
+                </li>
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ResearchProjectDef[defName="Mawy_Neutroamine"]/heldByFactionCategoryTags</xpath>
+                </li>
+                <!-- LUCIFERIUM -->
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ResearchProjectDef[defName="Mawy_Luciferium"]/techprintCount</xpath>
+                </li>
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ResearchProjectDef[defName="Mawy_Luciferium"]/techprintCommonality</xpath>
+                </li>
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ResearchProjectDef[defName="Mawy_Luciferium"]/techprintMarketValue</xpath>
+                </li>
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ResearchProjectDef[defName="Mawy_Luciferium"]/heldByFactionCategoryTags</xpath>
+                </li>
+                <!-- MECHSERYMH HEALER -->
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ResearchProjectDef[defName="Mawy_MechSerumHealer"]/techprintCount</xpath>
+                </li>
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ResearchProjectDef[defName="Mawy_MechSerumHealer"]/techprintCommonality</xpath>
+                </li>
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ResearchProjectDef[defName="Mawy_MechSerumHealer"]/techprintMarketValue</xpath>
+                </li>
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ResearchProjectDef[defName="Mawy_MechSerumHealer"]/heldByFactionCategoryTags</xpath>
+                </li>
+                <!-- MECH SERUM RESURRECTOR -->
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ResearchProjectDef[defName="Mawy_MechSerumResurrector"]/techprintCount</xpath>
+                </li>
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ResearchProjectDef[defName="Mawy_MechSerumResurrector"]/techprintCommonality</xpath>
+                </li>
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ResearchProjectDef[defName="Mawy_MechSerumResurrector"]/techprintMarketValue</xpath>
+                </li>
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ResearchProjectDef[defName="Mawy_MechSerumResurrector"]/heldByFactionCategoryTags</xpath>
+                </li>
+                <!-- ANTIGRAIN -->
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ResearchProjectDef[defName="Mawy_Antigrain"]/techprintCount</xpath>
+                </li>
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ResearchProjectDef[defName="Mawy_Antigrain"]/techprintCommonality</xpath>
+                </li>
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ResearchProjectDef[defName="Mawy_Antigrain"]/techprintMarketValue</xpath>
+                </li>
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ResearchProjectDef[defName="Mawy_Antigrain"]/heldByFactionCategoryTags</xpath>
+                </li>
+                <!-- PSYCHIC FOIL HELMET -->
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ResearchProjectDef[defName="Mawy_PsychicFoilHelmet"]/techprintCount</xpath>
+                </li>
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ResearchProjectDef[defName="Mawy_PsychicFoilHelmet"]/techprintCommonality</xpath>
+                </li>
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ResearchProjectDef[defName="Mawy_PsychicFoilHelmet"]/techprintMarketValue</xpath>
+                </li>
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ResearchProjectDef[defName="Mawy_PsychicFoilHelmet"]/heldByFactionCategoryTags</xpath>
+                </li>
             </operations>
         </nomatch>
     </Operation>
