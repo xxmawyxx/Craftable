@@ -1,5 +1,85 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/ThingDef[defName="Apparel_PsychicFoilHelmet"]</xpath>
+                <value>
+                    <costList>
+                        <Steel>60</Steel>
+                        <ComponentIndustrial>4</ComponentIndustrial>
+                    </costList>
+                    <recipeMaker>
+                        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+                        <workSkill>Crafting</workSkill>
+                        <workAmount>16000</workAmount>
+                        <recipeUsers>
+                            <li>TableMachining</li>
+                            <li>FabricationBench</li>
+                        </recipeUsers>
+                        <researchPrerequisite>Mawy_PsychicFoilHelmet</researchPrerequisite>
+                        <skillRequirements>
+                            <Crafting>10</Crafting>
+                            <Intellectual>8</Intellectual>
+                        </skillRequirements>
+                        <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+                    </recipeMaker>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/ThingDef[defName="MechSerumHealer"]</xpath>
+                <value>
+                    <costList>
+                        <MedicineUltratech>20</MedicineUltratech>
+                        <Neutroamine>10</Neutroamine>
+                        <ComponentSpacer>2</ComponentSpacer>
+                    </costList>
+                    <recipeMaker>
+                        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+                        <effectWorking>Surgery</effectWorking>
+                        <soundWorking>Recipe_Surgery</soundWorking>
+                        <workSkill>Crafting</workSkill>
+                        <workAmount>200000</workAmount>
+                        <recipeUsers>
+                            <li>DrugLab</li>
+                        </recipeUsers>
+                        <researchPrerequisite>Mawy_MechSerumHealer</researchPrerequisite>
+                        <skillRequirements>
+                            <Crafting>15</Crafting>
+                            <Intellectual>15</Intellectual>
+                        </skillRequirements>
+                        <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+                    </recipeMaker>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/ThingDef[defName="MechSerumResurrector"]</xpath>
+                <value>
+                    <costList>
+                        <MechSerumHealer>3</MechSerumHealer>
+                        <MedicineUltratech>4</MedicineUltratech>
+                        <ComponentSpacer>2</ComponentSpacer>
+                    </costList>
+                    <recipeMaker>
+                        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+                        <effectWorking>Surgery</effectWorking>
+                        <soundWorking>Recipe_Surgery</soundWorking>
+                        <workSkill>Crafting</workSkill>
+                        <workAmount>300000</workAmount>
+                        <recipeUsers>
+                            <li>DrugLab</li>
+                        </recipeUsers>
+                        <researchPrerequisite>Mawy_MechSerumResurrector</researchPrerequisite>
+                        <skillRequirements>
+                            <Crafting>17</Crafting>
+                            <Intellectual>17</Intellectual>
+                        </skillRequirements>
+                        <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+                    </recipeMaker>
+                </value>
+            </li>
+        </operations>
+    </Operation>
     <Operation Class="PatchOperationFindMod">
         <mods>
             <li>Royalty</li>
@@ -394,154 +474,179 @@
         </match>
         <nomatch Class="PatchOperationSequence">
             <operations>
-                <!-- REMOVE ROYALTY WEAPONS -->
+                <!-- REMOVE ROYALTY RESEARCH -->
                 <li Class="PatchOperationRemove">
-                    <xpath>Defs/ResearchProjectDef[defName="Mawy_Royaltyweapons"]</xpath>
-                </li>
-                <li Class="PatchOperationRemove">
-                    <xpath>Defs/ResearchProjectDef[defName="Mawy_RoyaltyPersonaweapons"]</xpath>
-                </li>
-                <!-- REMOVE ELTEX -->
-                <li Class="PatchOperationRemove">
-                    <xpath>Defs/ResearchProjectDef[defName="Mawy_PsyFocus"]</xpath>
-                </li>
-                <!-- BROADSHIELD CORE -->
-                <li Class="PatchOperationRemove">
-                    <xpath>Defs/ResearchProjectDef[defName="Mawy_BroadshieldCore"]</xpath>
+                    <xpath>Defs/ResearchProjectDef[
+                        defName="Mawy_Royaltyweapons" or 
+                        defName="Mawy_RoyaltyPersonaweapons" or  
+                        defName="Mawy_PsyFocus" or 
+                        defName="Mawy_BroadshieldCore"]</xpath>
                 </li>
                 <li Class="PatchOperationRemove">
                     <xpath>/Defs/RecipeDef[defName = "Mawy_MakeBroadshieldCore"]</xpath>
                 </li>
-                <!-- REMOVE TECHPRINT FROM VANILLA RESEARCH -->
-                <!-- PLASTEEL -->
+                <!-- REMOVE TECHPRINT FROM RESEARCH -->
                 <li Class="PatchOperationRemove">
-                    <xpath>Defs/ResearchProjectDef[defName="Mawy_Plasteel"]/techprintCount</xpath>
+                    <xpath>Defs/ResearchProjectDef[defName="Mawy_Plasteel" or 
+                        defName="Mawy_Hyperweave" or 
+                        defName="Mawy_Synthread" or 
+                        defName="Mawy_GlitterworldMedicine" or 
+                        defName="Mawy_Neutroamine" or 
+                        defName="Mawy_Luciferium" or 
+                        defName="Mawy_MechSerumHealer" or 
+                        defName="Mawy_MechSerumResurrector" or 
+                        defName="Mawy_Antigrain" or 
+                        defName="Mawy_PsychicFoilHelmet"]/techprintCount</xpath>
                 </li>
                 <li Class="PatchOperationRemove">
-                    <xpath>Defs/ResearchProjectDef[defName="Mawy_Plasteel"]/techprintCommonality</xpath>
+                    <xpath>Defs/ResearchProjectDef[defName="Mawy_Plasteel" or 
+                        defName="Mawy_Hyperweave" or 
+                        defName="Mawy_Synthread" or 
+                        defName="Mawy_GlitterworldMedicine" or 
+                        defName="Mawy_Neutroamine" or 
+                        defName="Mawy_Luciferium" or 
+                        defName="Mawy_MechSerumHealer" or 
+                        defName="Mawy_MechSerumResurrector" or 
+                        defName="Mawy_Antigrain" or 
+                        defName="Mawy_PsychicFoilHelmet"]/techprintCommonality</xpath>
                 </li>
                 <li Class="PatchOperationRemove">
-                    <xpath>Defs/ResearchProjectDef[defName="Mawy_Plasteel"]/techprintMarketValue</xpath>
+                    <xpath>Defs/ResearchProjectDef[defName="Mawy_Plasteel" or 
+                        defName="Mawy_Hyperweave" or 
+                        defName="Mawy_Synthread" or 
+                        defName="Mawy_GlitterworldMedicine" or 
+                        defName="Mawy_Neutroamine" or 
+                        defName="Mawy_Luciferium" or 
+                        defName="Mawy_MechSerumHealer" or 
+                        defName="Mawy_MechSerumResurrector" or 
+                        defName="Mawy_Antigrain" or 
+                        defName="Mawy_PsychicFoilHelmet"]/techprintMarketValue</xpath>
                 </li>
                 <li Class="PatchOperationRemove">
-                    <xpath>Defs/ResearchProjectDef[defName="Mawy_Plasteel"]/heldByFactionCategoryTags</xpath>
+                    <xpath>Defs/ResearchProjectDef[defName="Mawy_Plasteel" or 
+                        defName="Mawy_Hyperweave" or 
+                        defName="Mawy_Synthread" or 
+                        defName="Mawy_GlitterworldMedicine" or 
+                        defName="Mawy_Neutroamine" or 
+                        defName="Mawy_Luciferium" or 
+                        defName="Mawy_MechSerumHealer" or 
+                        defName="Mawy_MechSerumResurrector" or 
+                        defName="Mawy_Antigrain" or 
+                        defName="Mawy_PsychicFoilHelmet"]/heldByFactionCategoryTags</xpath>
                 </li>
-                <!-- HYPERWEAVE -->
+            </operations>
+        </nomatch>
+    </Operation>
+    <!-- VIKINGS -->
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Vanilla Factions Expanded - Vikings</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationFindMod">
+                    <mods>
+                        <li>Royalty</li>
+                    </mods>               
+                <nomatch Class="PatchOperationSequence">
+                    <operations>
+                        <li Class="PatchOperationRemove">
+                            <xpath>Defs/ResearchProjectDef[
+                                defName="Mawy_VikingsUltraWeapons" or 
+                                defName="Mawy_VikingsUltraArmor" or  
+                                defName="Mawy_Mjollnir"]/techprintCount</xpath>
+                        </li>
+                        <li Class="PatchOperationRemove">
+                            <xpath>Defs/ResearchProjectDef[
+                                defName="Mawy_VikingsUltraWeapons" or 
+                                defName="Mawy_VikingsUltraArmor" or  
+                                defName="Mawy_Mjollnir"]/techprintCommonality</xpath>
+                        </li>
+                        <li Class="PatchOperationRemove">
+                            <xpath>Defs/ResearchProjectDef[
+                                defName="Mawy_VikingsUltraWeapons" or 
+                                defName="Mawy_VikingsUltraArmor" or  
+                                defName="Mawy_Mjollnir"]/techprintMarketValue</xpath>
+                        </li>
+                        <li Class="PatchOperationRemove">
+                            <xpath>Defs/ResearchProjectDef[
+                                defName="Mawy_VikingsUltraWeapons" or 
+                                defName="Mawy_VikingsUltraArmor" or  
+                                defName="Mawy_Mjollnir"]/heldByFactionCategoryTags</xpath>
+                        </li>
+                    </operations>
+                </nomatch>
+            </li>
+            </operations>
+        </match>
+        <nomatch Class="PatchOperationSequence">
+            <operations>
                 <li Class="PatchOperationRemove">
-                    <xpath>Defs/ResearchProjectDef[defName="Mawy_Hyperweave"]/techprintCount</xpath>
-                </li>
-                <li Class="PatchOperationRemove">
-                    <xpath>Defs/ResearchProjectDef[defName="Mawy_Hyperweave"]/techprintCommonality</xpath>
-                </li>
-                <li Class="PatchOperationRemove">
-                    <xpath>Defs/ResearchProjectDef[defName="Mawy_Hyperweave"]/techprintMarketValue</xpath>
-                </li>
-                <li Class="PatchOperationRemove">
-                    <xpath>Defs/ResearchProjectDef[defName="Mawy_Hyperweave"]/heldByFactionCategoryTags</xpath>
-                </li>
-                <!-- SYNTHREAD -->
-                <li Class="PatchOperationRemove">
-                    <xpath>Defs/ResearchProjectDef[defName="Mawy_Synthread"]/techprintCount</xpath>
-                </li>
-                <li Class="PatchOperationRemove">
-                    <xpath>Defs/ResearchProjectDef[defName="Mawy_Synthread"]/techprintCommonality</xpath>
-                </li>
-                <li Class="PatchOperationRemove">
-                    <xpath>Defs/ResearchProjectDef[defName="Mawy_Synthread"]/techprintMarketValue</xpath>
-                </li>
-                <li Class="PatchOperationRemove">
-                    <xpath>Defs/ResearchProjectDef[defName="Mawy_Synthread"]/heldByFactionCategoryTags</xpath>
-                </li>
-                <!-- GLITTERWORLD MEDICINE -->
-                <li Class="PatchOperationRemove">
-                    <xpath>Defs/ResearchProjectDef[defName="Mawy_GlitterworldMedicine"]/techprintCount</xpath>
-                </li>
-                <li Class="PatchOperationRemove">
-                    <xpath>Defs/ResearchProjectDef[defName="Mawy_GlitterworldMedicine"]/techprintCommonality</xpath>
-                </li>
-                <li Class="PatchOperationRemove">
-                    <xpath>Defs/ResearchProjectDef[defName="Mawy_GlitterworldMedicine"]/techprintMarketValue</xpath>
-                </li>
-                <li Class="PatchOperationRemove">
-                    <xpath>Defs/ResearchProjectDef[defName="Mawy_GlitterworldMedicine"]/heldByFactionCategoryTags</xpath>
-                </li>
-                <!-- NEUTROAMINE -->
-                <li Class="PatchOperationRemove">
-                    <xpath>Defs/ResearchProjectDef[defName="Mawy_Neutroamine"]/techprintCount</xpath>
-                </li>
-                <li Class="PatchOperationRemove">
-                    <xpath>Defs/ResearchProjectDef[defName="Mawy_Neutroamine"]/techprintCommonality</xpath>
-                </li>
-                <li Class="PatchOperationRemove">
-                    <xpath>Defs/ResearchProjectDef[defName="Mawy_Neutroamine"]/techprintMarketValue</xpath>
-                </li>
-                <li Class="PatchOperationRemove">
-                    <xpath>Defs/ResearchProjectDef[defName="Mawy_Neutroamine"]/heldByFactionCategoryTags</xpath>
-                </li>
-                <!-- LUCIFERIUM -->
-                <li Class="PatchOperationRemove">
-                    <xpath>Defs/ResearchProjectDef[defName="Mawy_Luciferium"]/techprintCount</xpath>
-                </li>
-                <li Class="PatchOperationRemove">
-                    <xpath>Defs/ResearchProjectDef[defName="Mawy_Luciferium"]/techprintCommonality</xpath>
-                </li>
-                <li Class="PatchOperationRemove">
-                    <xpath>Defs/ResearchProjectDef[defName="Mawy_Luciferium"]/techprintMarketValue</xpath>
-                </li>
-                <li Class="PatchOperationRemove">
-                    <xpath>Defs/ResearchProjectDef[defName="Mawy_Luciferium"]/heldByFactionCategoryTags</xpath>
-                </li>
-                <!-- MECHSERYMH HEALER -->
-                <li Class="PatchOperationRemove">
-                    <xpath>Defs/ResearchProjectDef[defName="Mawy_MechSerumHealer"]/techprintCount</xpath>
+                    <xpath>Defs/ResearchProjectDef[
+                        defName="Mawy_VikingsUltraWeapons" or 
+                        defName="Mawy_VikingsUltraArmor" or  
+                        defName="Mawy_Mjollnir"]</xpath>
                 </li>
                 <li Class="PatchOperationRemove">
-                    <xpath>Defs/ResearchProjectDef[defName="Mawy_MechSerumHealer"]/techprintCommonality</xpath>
+                    <xpath>/Defs/RecipeDef[
+                        defName = "Mawy_VikingsCryAxe" or 
+                        defName = "Mawy_VikingsCryHeavyAxe" or 
+                        defName = "Mawy_VikingsCryShield" or 
+                        defName = "Mawy_VikingsCryLCrossbow" or 
+                        defName = "Mawy_VikingsCryHCrossbow" or 
+                        defName = "Mawy_VikingsCryPistol" or 
+                        defName = "Mawy_VikingsCryRifle" or 
+                        defName = "Mawy_VikingsCryLArmor" or 
+                        defName = "Mawy_VikingsCryLHelmet" or 
+                        defName = "Mawy_VikingsCryHArmor" or 
+                        defName = "Mawy_VikingsCryHHelmet" or 
+                        defName = "Mawy_MjollnirRecipe"]</xpath>
+                </li>
+            </operations>
+        </nomatch>
+    </Operation>
+    <!-- INSECTOIDS -->
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Vanilla Factions Expanded - Insectoids</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationFindMod">
+                    <mods>
+                        <li>Royalty</li>
+                    </mods>               
+                <nomatch Class="PatchOperationSequence">
+                    <operations>
+                        <li Class="PatchOperationRemove">
+                            <xpath>Defs/ResearchProjectDef[defName="Mawy_InsectoidsWeapons"]/techprintCount</xpath>
+                        </li>
+                        <li Class="PatchOperationRemove">
+                            <xpath>Defs/ResearchProjectDef[defName="Mawy_InsectoidsWeapons"]/techprintCommonality</xpath>
+                        </li>
+                        <li Class="PatchOperationRemove">
+                            <xpath>Defs/ResearchProjectDef[defName="Mawy_InsectoidsWeapons"]/techprintMarketValue</xpath>
+                        </li>
+                        <li Class="PatchOperationRemove">
+                            <xpath>Defs/ResearchProjectDef[defName="Mawy_InsectoidsWeapons"]/heldByFactionCategoryTags</xpath>
+                        </li>
+                    </operations>
+                </nomatch>
+            </li>
+            </operations>
+        </match>
+        <nomatch Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ResearchProjectDef[defName="Mawy_InsectoidsWeapons"]</xpath>
                 </li>
                 <li Class="PatchOperationRemove">
-                    <xpath>Defs/ResearchProjectDef[defName="Mawy_MechSerumHealer"]/techprintMarketValue</xpath>
-                </li>
-                <li Class="PatchOperationRemove">
-                    <xpath>Defs/ResearchProjectDef[defName="Mawy_MechSerumHealer"]/heldByFactionCategoryTags</xpath>
-                </li>
-                <!-- MECH SERUM RESURRECTOR -->
-                <li Class="PatchOperationRemove">
-                    <xpath>Defs/ResearchProjectDef[defName="Mawy_MechSerumResurrector"]/techprintCount</xpath>
-                </li>
-                <li Class="PatchOperationRemove">
-                    <xpath>Defs/ResearchProjectDef[defName="Mawy_MechSerumResurrector"]/techprintCommonality</xpath>
-                </li>
-                <li Class="PatchOperationRemove">
-                    <xpath>Defs/ResearchProjectDef[defName="Mawy_MechSerumResurrector"]/techprintMarketValue</xpath>
-                </li>
-                <li Class="PatchOperationRemove">
-                    <xpath>Defs/ResearchProjectDef[defName="Mawy_MechSerumResurrector"]/heldByFactionCategoryTags</xpath>
-                </li>
-                <!-- ANTIGRAIN -->
-                <li Class="PatchOperationRemove">
-                    <xpath>Defs/ResearchProjectDef[defName="Mawy_Antigrain"]/techprintCount</xpath>
-                </li>
-                <li Class="PatchOperationRemove">
-                    <xpath>Defs/ResearchProjectDef[defName="Mawy_Antigrain"]/techprintCommonality</xpath>
-                </li>
-                <li Class="PatchOperationRemove">
-                    <xpath>Defs/ResearchProjectDef[defName="Mawy_Antigrain"]/techprintMarketValue</xpath>
-                </li>
-                <li Class="PatchOperationRemove">
-                    <xpath>Defs/ResearchProjectDef[defName="Mawy_Antigrain"]/heldByFactionCategoryTags</xpath>
-                </li>
-                <!-- PSYCHIC FOIL HELMET -->
-                <li Class="PatchOperationRemove">
-                    <xpath>Defs/ResearchProjectDef[defName="Mawy_PsychicFoilHelmet"]/techprintCount</xpath>
-                </li>
-                <li Class="PatchOperationRemove">
-                    <xpath>Defs/ResearchProjectDef[defName="Mawy_PsychicFoilHelmet"]/techprintCommonality</xpath>
-                </li>
-                <li Class="PatchOperationRemove">
-                    <xpath>Defs/ResearchProjectDef[defName="Mawy_PsychicFoilHelmet"]/techprintMarketValue</xpath>
-                </li>
-                <li Class="PatchOperationRemove">
-                    <xpath>Defs/ResearchProjectDef[defName="Mawy_PsychicFoilHelmet"]/heldByFactionCategoryTags</xpath>
+                    <xpath>/Defs/RecipeDef[
+                        defName = "Mawy_InsectoidsPlasmaCutter" or 
+                        defName = "Mawy_InsectoidsPlasmapiercer" or 
+                        defName = "Mawy_InsectoidsPlasmabeamrifle" or 
+                        defName = "Mawy_InsectoidsPlasmaScattergun" or 
+                        defName = "Mawy_InsectoidsPlasmasaw"]</xpath>
                 </li>
             </operations>
         </nomatch>

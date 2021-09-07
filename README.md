@@ -56,8 +56,16 @@ Many of the items are balanced with respect to the MV(Market Value) and the amou
 
 ![1](https://i.imgur.com/yF7qXjS.png)
 
+
+7/9/21
+- Added Vanilla Faction Expanded - Vikings and Insectoids.
+- Xpatch file unified.
+- Recipe file unified.
+- Research file unified.
+
 31/8/21
 - Fix for vanilla research.
+
 29/8/21
 - Remove Royalty dependencies.
 
@@ -96,17 +104,10 @@ Q: Is this mod compatible with Combat Extended?<br />
 A: I play with Combat Extended so yeah.
 
 Q: Is this mod save game compatible?<br />
-A: Yes, It's simple XML mod.
+A: Should.
 
 Q: Is it compatible with X mod?<br />
 A: Should be, I play with 300+ moids and 0 problems.
-
-Q: Why X item are not included?<br />
-A: I try not unbalanced the game (not much) and do things with logic. Items from Empire, Glitterworld or human society will surely add but ancient or archotech items not because they aren't supposed to be within human knowledge (Rimworld lore).
-
-Q: Will you add items/equipment from others mods?<br />
-A: Most likely, it may be from Vanilla Series.
-
 
 ![legal](https://i.imgur.com/ngKjBqK.png)
 
