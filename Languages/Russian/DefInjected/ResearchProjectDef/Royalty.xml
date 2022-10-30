@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Mawy_BroadshieldCore.label>Ядро щита</Mawy_BroadshieldCore.label>
+  <Mawy_BroadshieldCore.description>Изготовление ядра щита.</Mawy_BroadshieldCore.description>
+
+  <Mawy_Royaltyweapons.label>Оружие Royalty</Mawy_Royaltyweapons.label>
+  <Mawy_Royaltyweapons.description>Изготовление мономечей, плазменных мечей и электромолотов.</Mawy_Royaltyweapons.description>
+
+  <Mawy_RoyaltyPersonaweapons.label>Синхрооружие</Mawy_RoyaltyPersonaweapons.label>
+  <Mawy_RoyaltyPersonaweapons.description>Изготовление синхромономечей, плазменных синхромечей и синхроэлектромолотов.</Mawy_RoyaltyPersonaweapons.description>
+
+  <Mawy_PsyFocus.label>Пси-снаряжение</Mawy_PsyFocus.label>
+  <Mawy_PsyFocus.description>Изготовление пси-экипировки.</Mawy_PsyFocus.description>
+
+
+</LanguageData>

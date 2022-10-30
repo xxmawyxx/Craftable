@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Mawy_Plasteel.label>Пласталь</Mawy_Plasteel.label>
+  <Mawy_Plasteel.description>Выплавка пластали.</Mawy_Plasteel.description>
+
+  <Mawy_Hyperweave.label>Гиперткань</Mawy_Hyperweave.label>
+  <Mawy_Hyperweave.description>Изготовление гиперткани.</Mawy_Hyperweave.description>
+
+  <Mawy_Synthread.label>Синткань</Mawy_Synthread.label>
+  <Mawy_Synthread.description>Изготовление синткани.</Mawy_Synthread.description>
+
+  <Mawy_GlitterworldMedicine.label>Передовые медикаменты</Mawy_GlitterworldMedicine.label>
+  <Mawy_GlitterworldMedicine.description>Изготовление передовых медикаментов.</Mawy_GlitterworldMedicine.description>
+
+  <Mawy_Neutroamine.label>Нейтроамин</Mawy_Neutroamine.label>
+  <Mawy_Neutroamine.description>Синтез нейтроамина.</Mawy_Neutroamine.description>
+
+  <Mawy_Luciferium.label>Люциферий</Mawy_Luciferium.label>
+  <Mawy_Luciferium.description>Изготовление люциферия.</Mawy_Luciferium.description>
+
+  <Mawy_MechSerumHealer.label>Сыворотка исцеления</Mawy_MechSerumHealer.label>
+  <Mawy_MechSerumHealer.description>Изготовление сыворотки исцеления.</Mawy_MechSerumHealer.description>
+
+  <Mawy_MechSerumResurrector.label>Сыворотка воскрешения</Mawy_MechSerumResurrector.label>
+  <Mawy_MechSerumResurrector.description>Изготовление сыворотки воскрешения.</Mawy_MechSerumResurrector.description>
+
+  <Mawy_Antigrain.label>Гранульные снаряды</Mawy_Antigrain.label>
+  <Mawy_Antigrain.description>Производство гранульных снарядов.</Mawy_Antigrain.description>
+
+  <Mawy_PsychicFoilHelmet.label>Шапочка из фольги</Mawy_PsychicFoilHelmet.label>
+  <Mawy_PsychicFoilHelmet.description>Изготовление шлема из психофольги.</Mawy_PsychicFoilHelmet.description>
+
+
+</LanguageData>
