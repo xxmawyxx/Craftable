@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- PLASTEEL -->
+
+  <Mawy_MakePlasteel.label>Выплавить пласталь</Mawy_MakePlasteel.label>
+  <Mawy_MakePlasteel.description>Выплавить пласталь из стали и химтоплива.</Mawy_MakePlasteel.description>
+  <Mawy_MakePlasteel.jobString>Выплавляет пласталь.</Mawy_MakePlasteel.jobString>
+
+  <Mawy_MakeHyperweave.label>Изготовить гиперткань</Mawy_MakeHyperweave.label>
+  <Mawy_MakeHyperweave.description>Изготовить гиперткань из синткани и пластали.</Mawy_MakeHyperweave.description>
+  <Mawy_MakeHyperweave.jobString>Изготавливает гиперткань.</Mawy_MakeHyperweave.jobString>
+
+
+  <!-- SYNTHREAD -->
+
+  <Mawy_MakeSynthread.label>Изготовить синткань</Mawy_MakeSynthread.label>
+  <Mawy_MakeSynthread.description>Изготовить синткань из ткани и пластали.</Mawy_MakeSynthread.description>
+  <Mawy_MakeSynthread.jobString>Изготавливает синткань.</Mawy_MakeSynthread.jobString>
+
+
+  <!-- NEUTROAMINE -->
+
+  <Mawy_MakeNeutroamine.label>Синтезировать нейтроамин</Mawy_MakeNeutroamine.label>
+  <Mawy_MakeNeutroamine.description>Синтезировать нейтроамин из психолистьев и лекарственных трав.</Mawy_MakeNeutroamine.description>
+  <Mawy_MakeNeutroamine.jobString>Синтезирует нейтроамин.</Mawy_MakeNeutroamine.jobString>
+
+  <Mawy_MakeNeutroamine4.label>Синтезировать нейтроамин x4</Mawy_MakeNeutroamine4.label>
+  <Mawy_MakeNeutroamine4.description>Синтезировать 4 нейтроамина из психолистьев и лекарственных трав.</Mawy_MakeNeutroamine4.description>
+  <Mawy_MakeNeutroamine4.jobString>Синтезирует нейтроамин.</Mawy_MakeNeutroamine4.jobString>
+
+
+  <!-- GLITTERWORLD MEDICINE -->
+
+  <Mawy_MakeGlitterworldMedicine.label>Изготовить передовые медикаменты</Mawy_MakeGlitterworldMedicine.label>
+  <Mawy_MakeGlitterworldMedicine.description>Изготовить передовые медикаменты.</Mawy_MakeGlitterworldMedicine.description>
+  <Mawy_MakeGlitterworldMedicine.jobString>Изготавливает передовые медикаменты.</Mawy_MakeGlitterworldMedicine.jobString>
+
+  <Mawy_MakeGlitterworldMedicine4.label>Изготовить передовые медикаменты x4</Mawy_MakeGlitterworldMedicine4.label>
+  <Mawy_MakeGlitterworldMedicine4.description>Изготовить 4 единицы передовых медикаментов.</Mawy_MakeGlitterworldMedicine4.description>
+  <Mawy_MakeGlitterworldMedicine4.jobString>Изготавливает передовые медикаменты.</Mawy_MakeGlitterworldMedicine4.jobString>
+
+
+  <!-- LUCIFERIUM -->
+
+  <Mawy_MakeLuciferium.label>Изготовить люциферий</Mawy_MakeLuciferium.label>
+  <Mawy_MakeLuciferium.description>Изготовить люциферий из психолистьев, передовых медикаментов и нейтроамина.</Mawy_MakeLuciferium.description>
+  <Mawy_MakeLuciferium.jobString>Изготавливает люциферий.</Mawy_MakeLuciferium.jobString>
+
+  <Mawy_MakeLuciferium4.label>Изготовить люциферий x4</Mawy_MakeLuciferium4.label>
+  <Mawy_MakeLuciferium4.description>Изготовить 4 единицы люциферия из психолистьев, передовых медикаментов и нейтроамина.</Mawy_MakeLuciferium4.description>
+  <Mawy_MakeLuciferium4.jobString>Изготавливает люциферий</Mawy_MakeLuciferium4.jobString>
+
+
+</LanguageData>
